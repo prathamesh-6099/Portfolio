@@ -127,6 +127,7 @@
   .hero-content {
     position: relative;
     z-index: 1;
+    margin-top: 5rem;
   }
   
   .profile-img {
@@ -386,7 +387,7 @@
   /* Education Section */
   .timeline {
     position: relative;
-    max-width: 800px;
+    max-width: 1500px;
     margin: 3rem auto;
   }
   
@@ -396,14 +397,14 @@
     width: 2px;
     height: 100%;
     background: var(--accent-color);
-    left: 70%;
+    left: 50%;
     transform: translateX(-50%);
   }
   
   .timeline-item {
     margin-bottom: 3rem;
     position: relative;
-    width: 70%;
+    width: 50%;
   }
   
   .timeline-item:nth-child(odd) {
@@ -412,7 +413,7 @@
   }
   
   .timeline-item:nth-child(even) {
-    left: 70%;
+    left: 50%;
     padding-left: 3rem;
   }
   
