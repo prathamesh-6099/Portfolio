@@ -95,3 +95,9 @@ AOS.init({
     alert('Message sent successfully!');
     this.reset();
   });
+// menu icon for mobiles 
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+  }
+
