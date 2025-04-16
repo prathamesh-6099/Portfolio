@@ -100,4 +100,10 @@ AOS.init({
     const navLinks = document.getElementById('navLinks');
     navLinks.classList.toggle('active');
   }
-
+// Close the menu after clicking a nav link
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.remove('active');
+  });
+});
