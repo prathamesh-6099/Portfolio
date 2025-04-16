@@ -19,7 +19,7 @@ AOS.init({
   });
   
   // Initialize Particles.js
-  particlesJS('particles-js', {
+  particlesJS('particles-js',{
     particles: {
       number: {
         value: 100,
