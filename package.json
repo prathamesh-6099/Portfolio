@@ -1,0 +1,42 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website with interactive chatbot",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=8000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "portfolio",
+    "responsive",
+    "chatbot",
+    "html",
+    "css",
+    "javascript",
+    "modern",
+    "interactive"
+  ],
+  "author": "Prathamesh Kolhe",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "typed.js": "^2.0.12",
+    "particles.js": "^2.0.0",
+    "emailjs": "^3.0.0",
+    "font-awesome": "^6.5.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/portfolio-website#readme"
+} 
